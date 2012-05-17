@@ -1,0 +1,162 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+body {
+  /*background: #E6F5D8;*/
+  background: #E6F5D8 url('../images/bg-mountains.jpg') repeat-x;
+}
+
+
+div.zone-user-wrapper {
+  background: #000;
+  height: 30px;
+  padding-top: 10px;
+}
+
+div.region-user-second-inner {
+  float: right;
+}
+
+div.zone-branding {
+  /*background: url(../images/bg-header.png) no-repeat;
+  background-position: right;*/
+  padding: 10px 0 10px 0;
+}
+
+div.zone-menu {
+  background: #000 url(../images/menu-bg.gif) repeat-x;
+  height: 30px;
+}
+
+.section-content {
+  margin-top: 20px;
+}
+
+div.zone-content {
+  background: #FFF;
+  padding-top: 20px;
+  -webkit-border-top-left-radius: 20px;
+  -webkit-border-top-right-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  -moz-border-radius-topright: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+h1, h2 {
+  font-size: 1.5em;
+}
+
+h2.pane-title {
+  /*background: #000 url('../images/black-bg.jpg') repeat-x;*/
+  background: #000;
+  color: #FFF;
+  font-size: 1.1em;
+  padding: 5px;
+  padding-left: 50px;
+  
+  -webkit-border-top-right-radius: 20px;
+  -moz-border-radius-topright: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* Iconize the adminpage */
+
+div.pane-boxes-dlms-user-menu h2 {
+   background: #000 url('../images/icons/users.png') no-repeat;
+}
+
+div.pane-boxes-admin-menu-statistics h2 {
+   background: #000 url('../images/icons/chart.png') no-repeat;
+}
+
+div.pane-boxes-admin-menu-book h2 {
+   background: #000 url('../images/icons/book.png') no-repeat;
+}
+
+div.pane-boxes-admin-menu-paper h2 {
+   background: #000 url('../images/icons/paper.png') no-repeat;
+}
+
+
+div.pane-boxes-admin-menu-newspaper h2 {
+   background: #000 url('../images/icons/newspaper.png') no-repeat;
+}
+
+div.pane-boxes-admin-menu-manual-journal h2 {
+   background: #000 url('../images/icons/journal.png') no-repeat;
+}
+
+/* Iconize the frontpage */
+div.pane-overdue-books h2 {
+   background: #000 url('../images/icons/overdue-book.png') no-repeat;
+}
+
+
+div.pane-borrowed-books h2 {
+   background: #000 url('../images/icons/book.png') no-repeat;
+}
+
+div.pane-dlms-stat-total-stat h2 {
+   background: #000 url('../images/icons/chart.png') no-repeat;
+}
+
+div.author-pane h2 {
+   background: #000 url('../images/icons/author.png') no-repeat;
+}
+
+div.pane-subjects h2 {
+   background: #000 url('../images/icons/subject.png') no-repeat;
+}
+
+
+/*styling pager */
+li.pager-previous a {
+  width: 100px;
+}
+
+/*style admin dashboard*/
+
+div#admin-dashboard ul {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+div#admin-dashboard ul a {
+  text-decoration: none;
+  padding-left: 30px;
+  line-height: 2em;
+}
+
+
+div#admin-dashboard ul a.add {
+  background: url('../images/icons/add.png') no-repeat;
+}
+
+div#admin-dashboard li a.add {
+}
+
+
+div#admin-dashboard ul a.view {
+  background: url('../images/icons/view.png') no-repeat;
+ }
+
+div#admin-dashboard li a.view {
+}
+
+
+div#admin-dashboard ul a.stat {
+  background: url('../images/icons/stat.png') no-repeat;
+ }
+
+div#admin-dashboard li a.stat {
+}
+
+
+div#admin-dashboard ul a.book {
+  background: url('../images/icons/smallbook.png') no-repeat;
+ }
+
+div#admin-dashboard li a.book {
+}
+
